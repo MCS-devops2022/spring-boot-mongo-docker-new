@@ -17,6 +17,7 @@ services:
     - springappbridge 
   mongo:
     image: mongo
+    container_name: springboot-mongo
     environment:
     - MONGO_INITDB_ROOT_USERNAME=devdb
     - MONGO_INITDB_ROOT_PASSWORD=devdb@123
